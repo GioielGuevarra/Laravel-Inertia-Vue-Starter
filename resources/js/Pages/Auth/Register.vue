@@ -22,6 +22,7 @@ const submit = () => {
 </script>
 
 <template>
+    <Head title="- Login" />
     <Container class="w-1/2">
         <div class="mb-8 text-center">
             <Title class="text-3xl font-bold mb-2"
@@ -29,7 +30,7 @@ const submit = () => {
             >
             <p>
                 Already have an account?
-                <TextLink routeName="home" label="Login" />
+                <TextLink routeName="login" label="Login" />
             </p>
         </div>
 
